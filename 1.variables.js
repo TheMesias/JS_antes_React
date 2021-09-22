@@ -8,6 +8,6 @@ var variable = "hello";
 let variLet = 25; 
 console.log(variLet); 
 
+//for use const you should initialize the variable with value 
 const varConst = 20; 
-
 console.log(varConst); 
