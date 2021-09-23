@@ -1,0 +1,34 @@
+------------------------Diferencia entre var, let, const--------------------
+====VAR==== 
+var se puede acceder al valor de la variable antes de la declaracion, probelmas con el mantenimiento de codigo
+
+====LET====
+let solo hay como acceder al valor de la variable despues de la declaracion 
+
+===CONST===
+const valor constante y no hay como acceder al valor antes de la declaracion, no hay como reasignar el valor 
+
+
+--------------------------------FUNCIONES-------------------------------------
+Las FUNCIONES tambien son clases pero basadas en prototipos. 
+Argumentos son los valores que contien el parametros. 
+
+
+-----------------------------EXPORT E IMPORT----------------------------------
+Solo se puede utilizar la palabra import cuando estamos trabajando con modulos y le axtencion mjs 
+
+-> si el archivo no exporta algo por defecto (export default) al momento de importar se debe utilizar {} 
+-> se puede exportar todo tipo (arrays, funciones)
+
+-------------------------------SPREAD OPERATOR--------------------------------
+
+===ARRAYS===
+Se crea una copia de los arrays padres y se modifica el padre no se medifica el array creado 
+
+===OBJETOS==
+*Al igual que en arrays se crea una copia de los objetos y cuando se cambia el valor no afecta al objeto creado
+*Tambien si existen propiedades del mismo se reemplazan por el ultimo valor asignado del ultimo objeto 
+
+----------------------------------REST OPERATOR-------------------------------
+-> casi igual spread pero aca sacamos los valores, siempre debe ir al !ULTIMO!. 
+-> los valores obtenido son arreglos 
